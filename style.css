@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+header {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(50, 167, 145);
+}
+
+header img {
+  height: 50px;
+}
+
+header h1 {
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login input {
+  padding: 5px;
+  height: 23px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.trybewarts-login button {
+  background-color: rgb(61, 2, 156);
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+  border: none;
+}
+
+main {
+  display: flex;
+}
+
+.forms-div {
+  margin: 3px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forms-div input {
+  padding: 5px;
+  height: 23px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+#house {
+  width: 140px;
+  height: 23px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 300px;
+}
+
+#family-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+#family-div , #family-div span , #family-div label {
+  padding: 5px;
+}
+
+#checkbox-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.checks-and-radios-content {
+  border-top: 1px solid rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(197, 197, 197);
+  display: flex;
+  margin: 20px;
+}
+
+#checkbox-content label {
+  padding: 10px;
+}
+
+#checkbox-content span {
+  display: inline-block;
+  padding: 5px;
+}
+
+#rate-div-content {
+  display: flex;
+}
+
+#rate-div-content label , #rate-div-content input {
+  margin: 0 4px;
+}
+
+#leave-a-coment {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#leave-a-coment textarea {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#label-infos {
+  margin: 0 50px;
+}
+
+#submit-btn {
+  margin: 30px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-enabled {
+  background-color: rgb(61, 2, 156);
+}
+
+.btn-disabled {
+  background-color: rgb(126, 126, 126);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  height: 30px;
+}
